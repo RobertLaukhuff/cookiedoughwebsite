@@ -1,0 +1,72 @@
+#hero{
+  display: block;
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/assets/cookies.jpg");
+}
+
+h1{
+  position:relative;
+  font-size: 3.5em;
+  color: white;
+  top: 2.5em;
+  left: 0.2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+#container{
+  background-color: white;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+#menu{
+  font-size: 3.5em;
+  text-align: center;
+  padding: 0.5em;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#menu>h2{
+  border-bottom: 3px solid black;
+}
+
+#menu-items{
+  margin-top: 1rem;
+  width: 100%;
+  height: 10rem;
+  font-size: 1rem;
+}
+
+#menu-items>h3{
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.menu-list{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style-type: circle;
+  list-style-position:inside;
+  text-align: left;
+  left: 5rem;
+  line-height: 3rem;
+  background-color: red;
+}
+
+.menu-list>li:nth-of-type(odd){
+  min-width: 100%;
+  background-color: blue;
+}
+
+.price{
+ display: inline-block;
+ position: relative;
+ text-align: right;
+}
